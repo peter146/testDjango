@@ -9,6 +9,13 @@ class Post(models.Model):
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
 
+class Voetbalspelers(models.Model):
+    player_name = models.TextField()
+    player_club = models.TextField()
+    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    created_date = models.DateTimeField(default=timezone.now)
+    modified_date = models.DateTimeField(default=timezone.now)
+
 def publish(self):
     self.published_date = timezone.now
     self.save()
