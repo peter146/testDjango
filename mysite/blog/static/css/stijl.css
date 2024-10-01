@@ -1,5 +1,5 @@
 body {
-    background-color: orange;
+    background-color: rgb(207, 196, 174);
     color: black;
 }
 
@@ -10,5 +10,5 @@ h1 {
 article {
     width: 500px;
     margin-bottom: 40px;
-    border: 3px solid red;
+    border: 0.5px solid rgb(94, 0, 0);
 }
