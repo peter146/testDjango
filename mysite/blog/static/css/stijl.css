@@ -12,12 +12,17 @@ h1 {
     color: black;
 }
 
-/* article {
+article {
     margin-bottom: 40px;
     margin-top: 40px;
     border: 0.5px solid rgb(255, 255, 255);
     background-color: rgb(224, 142, 139);
-} */
+    padding: 1rem;
+}
+
+article a {
+    color: rgb(219, 124, 16)
+}
 
 header {
     background-color: rgb(219, 124, 16);
@@ -31,3 +36,7 @@ footer {
     min-height: 5rem; 
 }
 
+#posts {
+    width: 40%;
+    margin-left: 40%;
+}
