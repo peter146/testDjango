@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(116, 17, 10);
+    color: black;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    color: black;
+}
+
+article {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border: 0.5px solid rgb(255, 255, 255);
+    background-color: rgb(224, 142, 139);
+    padding: 1rem;
+}
+
+article a {
+    color: rgb(219, 124, 16)
+}
+
+header {
+    background-color: rgb(219, 124, 16);
+    min-height: 8rem;
+    padding: 5rem; 
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(219, 124, 16);
+    min-height: 5rem; 
+}
+
+#posts {
+    width: 40%;
+    margin-left: 40%;
+    background-color: rgb(224, 142, 139);
+}
